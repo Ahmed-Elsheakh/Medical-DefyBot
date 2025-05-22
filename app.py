@@ -5,7 +5,7 @@ dify_api_key = "app-d69w9tfI4RP2WUItmMxxnpOj"
 
 url = "https://api.dify.ai/v1/chat-messages"
 
-st.title("Medical DefyBot")
+st.title("💊 Medical DefyBot")
 
 if "conversation_id" not in st.session_state:
     st.session_state.conversation_id = ""
